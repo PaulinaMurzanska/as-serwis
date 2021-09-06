@@ -2,15 +2,14 @@
 @import "../../styles/Globals.scss";
 
 .overmenu {
-    background-color: #fbfbfb;
+    // background-color: #fbfbfb;
+    background-color:pink;
+    border: 2px solid purple;
+    margin: 0;
     .container {
       display: flex;
       justify-content: flex-end;
       height: 38px;
-      @media (max-width: 720px) {
-        justify-content: center;
-      }
-  
       .item {
         color: $smallTextLighterColor;
         display: flex;
@@ -22,9 +21,11 @@
         .icon{
             margin-right: 8px; 
         }
-       
-        
       }
+      @media (max-width: 720px) {
+        justify-content: center;
+      }
+  
+      
     }
   }
-  

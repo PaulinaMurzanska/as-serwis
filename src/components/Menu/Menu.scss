@@ -1,0 +1,29 @@
+@import "../../styles/Variable.scss";
+@import "../../styles/Globals.scss";
+
+.header {
+    .container {
+      display: flex;
+      height: 92px;
+      display: flex;
+      align-items: center;
+      border: 2px solid green;
+      .logo {
+        border: 1px solid red;
+        // flex: 1;
+      }
+      .menu-wrapper {
+        border: 1px solid blue;
+        // flex: 3;
+  
+        .menu-list {
+          padding: 0;
+          margin: 0;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          
+        }
+      }
+    }
+  }
