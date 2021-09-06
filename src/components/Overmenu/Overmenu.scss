@@ -1,0 +1,30 @@
+@import "../../styles/Variable.scss";
+@import "../../styles/Globals.scss";
+
+.overmenu {
+    background-color: #fbfbfb;
+    .container {
+      display: flex;
+      justify-content: flex-end;
+      height: 38px;
+      @media (max-width: 720px) {
+        justify-content: center;
+      }
+  
+      .item {
+        color: $smallTextLighterColor;
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        &.phone{
+            margin-right:25px;
+        }
+        .icon{
+            margin-right: 8px; 
+        }
+       
+        
+      }
+    }
+  }
+  
