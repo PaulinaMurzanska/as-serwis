@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import Root from './views/Root/App';
+import Root from './views/Root/Root';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Root />
+    <Root/>
   </React.StrictMode>,
   document.getElementById('root')
 );

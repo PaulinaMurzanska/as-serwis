@@ -7,14 +7,15 @@
       height: 92px;
       display: flex;
       align-items: center;
-      border: 2px solid green;
       .logo {
-        border: 1px solid red;
-        // flex: 1;
+        flex: 1;
+        color: $projectImportantButtonColor;
+        font-weight: bold;
+        
       }
       .menu-wrapper {
-        border: 1px solid blue;
-        // flex: 3;
+        flex: 3;
+        height: 100%;
   
         .menu-list {
           padding: 0;
@@ -22,6 +23,60 @@
           display: flex;
           justify-content: space-around;
           align-items: center;
+          height: 100%;
+          a{
+            flex: 1;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+            &::after{
+              content: "";
+              width: 0;
+              height: 2px;
+              background-color: $projectImportantButtonColor;
+              position: absolute;
+              bottom: 0;
+              left: 50%;
+              transition: .2s;
+            }
+            &::before{
+              content: "";
+              width: 0;
+              height: 2px;
+              background-color: $projectImportantButtonColor;
+              position: absolute;
+              bottom: 0;
+              right:50%;
+              transition: .2s; 
+            }
+            &:hover{
+              .menu-item{
+                color: $projectImportantButtonColor;
+              }
+              &::after{
+                width: 50%;
+                left: 0;
+              }
+              &::before{
+                width: 50%;
+                right: 0;
+              }
+            }
+            .menu-item{
+              color: $headersTextColor;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              font-size: 1.4rem;
+              width: 100%;
+              text-align: center;
+             border-left: 1px solid $menuLinkColor;
+            }
+            &:active{
+              color: $projectImportantButtonColor;
+            }
+
+          }
           
         }
       }

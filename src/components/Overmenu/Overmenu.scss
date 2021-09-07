@@ -2,9 +2,7 @@
 @import "../../styles/Globals.scss";
 
 .overmenu {
-    // background-color: #fbfbfb;
-    background-color:pink;
-    border: 2px solid purple;
+    background-color: #fbfbfb;
     margin: 0;
     .container {
       display: flex;
@@ -17,9 +15,15 @@
         font-size: 1.3rem;
         &.phone{
             margin-right:25px;
+            @media(max-width:360px){
+              margin-right:10px
+            }
         }
         .icon{
-            margin-right: 8px; 
+            margin-right: 8px;
+            @media(max-width:360px){
+              margin-right:4px
+            } 
         }
       }
       @media (max-width: 720px) {
