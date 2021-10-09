@@ -1,0 +1,40 @@
+@import "../../styles/Variable.scss";
+@import "../../styles/Globals.scss";
+
+.price-page{
+    .container{
+     
+        .title{
+            border-bottom:2px solid $projectImportantButtonColor;
+            padding-bottom: 15px;
+            width:50%;
+            text-align: center;
+            margin: 35px auto;
+            h2{
+                margin: 0;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+        }
+        .info-section{
+            margin: 40px auto;
+            h4{
+                font-weight: 300;
+                color: $bodyTextColor;
+                text-align: center;
+                @media(max-width:600px){
+                    text-align: justify;
+                }
+
+            }
+            &.bottom{
+                padding:50px 0 ;
+
+
+            }
+           
+        }
+
+    }
+}
+    
