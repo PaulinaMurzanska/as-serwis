@@ -1,6 +1,7 @@
 import React from 'react';
 import PhotoDisplayTop from '../sharedComponents/PhotoDisplayTop/PhotoDisplayTop';
 import WelcomePageIntro from './WelcomePageIntro';
+import welcomePagePhoto from "../../images/gas5.jpg";
 
 const WelcomePage = () => {
 	return (
@@ -9,6 +10,7 @@ const WelcomePage = () => {
 				subtextTop="Przeglądy, konserwacja i serwis"
 				textMain="Kotłów gazowych i kotłowni"
 				subtextBottom="w Krakowie i okolicach"
+				coverPhoto={welcomePagePhoto}
 			/>
 			<WelcomePageIntro />
 		</>

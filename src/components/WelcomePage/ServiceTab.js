@@ -13,7 +13,7 @@ const ServiceTab = ({ tabPhoto, tabTitle, tabDescription }) => {
 				<h4>{tabTitle}</h4>
 				<p>{tabDescription}</p>
 			</div>
-			<Link path to="#">
+			<Link path to="/services/#maintenance">
 				<span>więcej...</span>
 			</Link>
 		</div>

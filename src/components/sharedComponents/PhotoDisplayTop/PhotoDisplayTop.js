@@ -1,9 +1,9 @@
 import React from 'react';
 import './PhotoDisplayTop.scss';
 
-const PhotoDisplayTop = ({ subtextTop, textMain, subtextBottom }) => {
+const PhotoDisplayTop = ({ subtextTop, textMain, subtextBottom, coverPhoto}) => {
 	return (
-		<div className="photoWrapper">
+		<div className="photoWrapper" style={{backgroundImage:`url(${coverPhoto})`}}>
 			<div className="container">
 				<div className="head subtext-top">
 					<h2>{subtextTop}</h2>`

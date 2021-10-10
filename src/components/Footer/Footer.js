@@ -3,6 +3,8 @@ import './Footer.scss';
 import { ImMobile } from 'react-icons/im';
 import { HiMail } from 'react-icons/hi';
 import { BiCopyright } from 'react-icons/bi';
+import { tel, mail } from '../../constants/Descriptions';
+
 
 const Footer = () => {
 	return (
@@ -21,11 +23,11 @@ const Footer = () => {
 						<div className="contacts">
 							<div className="item phone">
 								<ImMobile className="icon" />
-								<span>514 132 314</span>
+								<span>{tel}</span>
 							</div>
 							<div className="item mail">
 								<HiMail className="icon" />
-								<span>p.murzanska@gmail.com</span>
+								<span>{mail}</span>
 							</div>
 						</div>
 					</div>
