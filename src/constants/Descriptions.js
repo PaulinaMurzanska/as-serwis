@@ -33,8 +33,9 @@ i czyszczeniem dotyczy w pełni sprawnego kotła gazowego. Diagnoza awarii, napr
  lub faktury VAT.`;
 
  const contactIntro=`Jesteśmy do Państwa dyspozycji od poniedziałku do piątku w godzinach od 8:00 do 16:00.
- Jeżeli nie uda się Państwu dodzwonić, można wysłąć do nas maila, postaramy się ospowiedziec w ciągu 24h. 
+ Jeżeli nie uda się Państwu dodzwonić, można wysłać do nas maila. Postaramy się odpowiedzieć w ciągu 24h. 
  W sytuacjach awaryjncyh można się z nami kontaktować poza godzinami naszej pracy`;
+ 
  const tel ="600 339 541";
  const mail = "as_serwis@as_serwis.pl";
 
@@ -71,6 +72,13 @@ ogrzewania to nie tylko sprawne uzyskiwanie dużej ilości ciepła z możliwie
   oraz przygotowywanie ciepłej wody użytkowej, może wymagać jedynie minimalnej 
   ilości uwagi ze strony użytkownika. Przyjrzyjmy się, jakie systemy mogą pomóc
    w wygodnej eksploatacji domowej kotłowni.`;
+
+const maintenanceId="maintenane";
+const authomaticsId="authomatics";
+const installationId="installation";
+
+
+
 
 const priceList =[
 	{
@@ -131,7 +139,11 @@ export {
 	mail,
 	aboutMaintenance,
 	aboutInstallation,
-	aboutAuthomatics
+	aboutAuthomatics,
+	maintenanceId,
+	installationId,
+	authomaticsId,
+	
 	
 
 }

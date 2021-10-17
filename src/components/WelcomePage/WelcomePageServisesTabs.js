@@ -12,9 +12,13 @@ import {
 	tabDescription1,
 	tabDescription2,
 	tabDescription3,
+	maintenanceId,
+	installationId,
+	authomaticsId
 } from '../../constants/Descriptions';
 
 const WelcomePageServisesTabs = () => {
+
 	return (
 		<div className="services-wrapper">
 			<div className="services-row">
@@ -22,16 +26,25 @@ const WelcomePageServisesTabs = () => {
 					tabPhoto={tabPhoto1}
 					tabTitle={tabTitle1}
 					tabDescription={tabDescription1}
+					idTag={maintenanceId}
+			
+					
 				/>
 				<ServiceTab
 					tabPhoto={tabPhoto2}
 					tabTitle={tabTitle2}
 					tabDescription={tabDescription2}
+					idTag={installationId}
+					
+
 				/>
 				<ServiceTab
 					tabPhoto={tabPhoto3}
 					tabTitle={tabTitle3}
 					tabDescription={tabDescription3}
+					idTag={authomaticsId}
+					
+
 				/>
 			</div>
 		</div>

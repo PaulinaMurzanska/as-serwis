@@ -8,7 +8,7 @@ import './CoopsLogos.scss';
 const CoopsLogos = () => {
 	return (
 		<div className="logos-wrapper-outer">
-			<h3>współpracujemy z najpopularniejsyzmi markami</h3>
+			<h3>współpracujemy z najpopularniejszymi markami</h3>
 			<div className="logos-wrapper-inner">
 				<div className="logo">
 					<img src={viessmann} alt="viessmann" />

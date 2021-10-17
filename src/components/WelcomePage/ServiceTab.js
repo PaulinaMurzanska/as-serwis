@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './ServiceTab.scss';
 
-const ServiceTab = ({ tabPhoto, tabTitle, tabDescription }) => {
+const ServiceTab = ({ tabPhoto, tabTitle, tabDescription,idTag}) => {
 	return (
 		<div className="tab-frame">
 			<div
@@ -13,7 +13,7 @@ const ServiceTab = ({ tabPhoto, tabTitle, tabDescription }) => {
 				<h4>{tabTitle}</h4>
 				<p>{tabDescription}</p>
 			</div>
-			<Link path to="/services/#maintenance">
+			<Link path to={`usługi/#${idTag}`}>
 				<span>więcej...</span>
 			</Link>
 		</div>

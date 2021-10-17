@@ -26,8 +26,12 @@ const Menu = () => {
 	return (
 		<section className={navbar ? 'header scrolled' : 'header'}>
 			<div className="container">
+				
 				<div className="logo">
-					AS <small>serwis</small>
+				<Link to={ROUTE_MAIN_PAGE}>
+				AS <small>serwis</small>
+
+				</Link>
 				</div>
 
 				<div

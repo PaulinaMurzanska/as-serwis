@@ -16,9 +16,13 @@
       align-items: center; 
       .logo {
         flex: 1;
-        color: $projectImportantButtonColor;
-        font-weight: bold;
-        font-size: 2rem;
+
+        a{
+          color: $projectImportantButtonColor;
+          font-weight: bold;
+          font-size: 2rem;
+        }
+       
         
       }
       .menu-wrapper {

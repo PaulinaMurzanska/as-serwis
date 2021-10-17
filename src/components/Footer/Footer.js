@@ -17,7 +17,7 @@ const Footer = () => {
 					<div className="info-section">
 						<div className="address">
 							<h4>Jacek Pilas</h4>
-							<span>ul.dożynkowa 158F/2</span>
+							<span>ul. Dożynkowa 158F/2</span>
 							<span>31-234 Kraków</span>
 						</div>
 						<div className="contacts">

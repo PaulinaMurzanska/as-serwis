@@ -8,6 +8,7 @@ const Service = ({
 	reversed,
 	id,
 }) => {
+
 	return (
 		<div id={id} className={reversed ? 'service reversed' : 'service'}>
 			<div
