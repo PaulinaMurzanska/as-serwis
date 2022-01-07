@@ -8,12 +8,12 @@
   z-index: 10;
   transition:.3s;
 
-
     .container {
       display: flex;
       height: 75px;
       display: flex;
       align-items: center; 
+
       .logo {
         flex: 1;
 
@@ -70,6 +70,7 @@
           justify-content: space-around;
           align-items: center;
           height: 100%;
+
           a{
             flex: 1;
             height: 100%;
@@ -136,6 +137,7 @@
             top:0;
             right: 0;
             opacity: 0;
+            transition: .3s;
          
               
             &.collapse-custom{
