@@ -72,43 +72,43 @@ const installationId="installation";
 const priceList =[
 	{
 		name: 'Przegląd  i konserwacja kotła do 50 kW',
-		price: `250 zł`,
+		price: `__ zł`,
 	},
 	{
 		name: 'Analiza spalin',
-		price: `150 zł`,
+		price: `__ zł`,
 	},
 	{
 		name: 'Diagnoza i naprawa awarii lub cześci wymiennych',
-		price: `300 zł`,
+		price: `__ zł`,
 	},
 	{
 		name: 'Pierwsze uruchomienie urządzenia grzewczego',
-		price: `200 zł`,
+		price:`__ zł`,
 	},
     {
 		name: 'Montaż urządzenia grzewczego',
-		price: `350zł`,
+		price: `__ zł`,
 	},
     {
 		name: 'Wymiana urządzenia grzewczego( demontaz i montaż)',
-		price: `600 zł`,
+		price: `__ zł`,
 	},
     {
 		name: 'Dojazd do klienta na terenie Krakowa',
-		price: `50 zł`,
+		price: `__ zł`,
 	},
     {
 		name: 'Dojazd do klienta poza teren Krakowa',
-		price: `80 zł / 25km`,
+		price: `__ zł`,
 	},
     {
 		name: 'Roboczogodzina ',
-		price: `90zł`,
+		price: `__ zł`,
 	},
     {
 		name: 'Abonament serwisowy 24/h',
-		price: `350 zł/mies`,
+		price:  `__ zł`,
 	},
 ];
 
