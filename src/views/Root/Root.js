@@ -7,6 +7,19 @@ import Overmenu from '../../components/Overmenu/Overmenu';
 import CookieConsent from 'react-cookie-consent';
 
 function Root() {
+	const consent = () => {
+		if (document.cookie === 'CookieConsent=true') {
+			return true;
+		}
+		if (
+			document.cookie === 'CookieConsent=true' ||
+			document.cookie === ''
+		) {
+			return false;
+		}
+	};
+	const isConsentGiven = consent();
+
 	return (
 		<>
 			<Router>
@@ -15,6 +28,7 @@ function Root() {
 				<Main />
 				<Footer />
 			</Router>
+			{isConsentGiven === false &&  
 			<CookieConsent
 				debug={true}
 				buttonText="Akceptuję"
@@ -30,6 +44,7 @@ function Root() {
 				Więcej szczegółów w naszej.
 				<a href="/polityka_prywatności">Polityce cookies</a>
 			</CookieConsent>
+			}
 		</>
 	);
 }
