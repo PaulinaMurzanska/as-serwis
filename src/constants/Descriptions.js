@@ -34,7 +34,7 @@ i czyszczeniem dotyczy w pełni sprawnego kotła gazowego. Diagnoza awarii, napr
  W sytuacjach awaryjncyh można się z nami kontaktować poza godzinami naszej pracy`;
  
  const tel ="600 339 541";
- const mail = "as_serwis@as_serwis.pl";
+ const mail = "a.sawicz@interia.pl";
 
  const aboutMaintenance=`Bezawaryjna praca dwufunkcyjnych kotłów gazowych, 
  czyli tych najpopularniejszych, to podstawa komfortu i bezpieczeństwa dla domowników. 

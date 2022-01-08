@@ -9,6 +9,10 @@ import {
 } from '../../constants/routes/Routes';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImCross } from 'react-icons/im';
+import logo from "../../images/LOGO2.png";
+import logo2 from "../../images/LOGO1.PNG";
+
+
 
 const Menu = () => {
 	const [navbar, setNavbar] = useState(false);
@@ -29,7 +33,9 @@ const Menu = () => {
 				
 				<div className="logo">
 				<Link to={ROUTE_MAIN_PAGE}>
-				AS <small>serwis</small>
+				<img 
+				src={navbar ? logo2 : logo}
+				alt="AsSerwis" style={{width:'auto', height:"30px"}}/>
 
 				</Link>
 				</div>

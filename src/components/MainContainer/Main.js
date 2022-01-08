@@ -25,6 +25,7 @@ const Main = () => {
 			<Route exact path={ROUTE_PRIVACY_POLICY}>
 				<PrivacyPolicy/>
 			</Route>
+
 		</Switch>
 	);
 };

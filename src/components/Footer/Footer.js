@@ -4,6 +4,7 @@ import { ImMobile } from 'react-icons/im';
 import { HiMail } from 'react-icons/hi';
 import { BiCopyright } from 'react-icons/bi';
 import { tel, mail } from '../../constants/Descriptions';
+import logo from "../../images/LOGO1.PNG"
 
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
 			<div className="container">
 				<div className="footer-body">
 					<div className="logo-section">
-						AS <small>serwis</small>
+					<img src={logo} alt="AsSerwis" style={{width:'auto', height:"30px"}}/>
 					</div>
 					<div className="info-section">
 						<div className="address">
