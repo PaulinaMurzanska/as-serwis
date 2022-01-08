@@ -1,77 +1,66 @@
-const intro = `	As Serwis to ponad 15-letnie doświadczenie w branży gazowych
+const intro = `	As serwis to ponad 15-letnie doświadczenie w branży gazowych
 urządzeń grzewczych. Oferujemy kompleksowe rozwiązania z
 zakresu obsługi urządzeń grzewczych, które znajdują się w
 Państwa domach/mieszkaniach. Zajmujemy się wykonywaniem
 napraw gwarancyjnych, pogwarancyjnych oraz przeglądów
-technicznych kotłów i term gazowych. Firma pomaga także w
+technicznych kotłów i term gazowych. Pomagamy również w
 doborze nowego urządzenia, uwzględniając założony przez
-Państwa budżet , sprzedaży w atrakcyjnej cenie po montaż i
-pierwsze uruchomienie. Zapraszamy do skorzystania z naszych
-usług.`
+Państwa budżet i montażu urządzenia. Zapewniamy również usługę
+pierwszego uruchomienia.`
 
 const tabTitle1 =`konserwaje i przeglądy kotłów gazowych`;
 const tabTitle2 =`montaż i instalacja urządzeń`;
 const tabTitle3 =`automatyka kotłowni`;
 
-const tabDescription1 = `Certyfikowane przeglądy przeglądy i serwis grawaranyjny i
+const tabDescription1 = `Certyfikowane przeglądy i serwis grawaranyjny i
 pogwarancyjny wybranych marek`;
 
 const tabDescription3 =`Kalibrowanie nastaw, konfiguracja parametrów, instalacja sterowników`;
 
-const tabDescription2 =`Montaż kotłowni gazowych , pierwsze uruchomienie`;
+const tabDescription2 =`Montaż piecyków gazowych , pierwsze uruchomienie`;
 
 const pricesIntroText =`Zapraszamy do zapoznania się z cennikiem najpularniejszych usług. Dla 
-niewymienionych w cenniku usług i klientów instutucjonalnych możliwa jest wycena dopasowana do 
+niewymienionych w cenniku usług i klientów instytucjonalnych możliwa jest wycena dopasowana do 
 indywidualnych potrzeb.`;
 
 const pricesBottomText =`Ceny usług nie zawierają części zamiennych i ew. materiałów 
 eksploatacyjnych (np. uszczelek palnika). Usługa przeglądu technicznego z konserwacją 
 i czyszczeniem dotyczy w pełni sprawnego kotła gazowego. Diagnoza awarii, naprawy i wymiany
  części są osobnymi usługami. Ceny za konserwacje i naprawy mają charakter orientacyjny i 
- mogą być wyższe w zależności od pory roku i stopnia zanieczyszczenia urządzenia. Cena brutto z 
- bezpłatnym dojazdem na terenie Wrocławia (poza do uzgodnienia). Do zlecenia są wydawane paragony 
- lub faktury VAT.`;
+ mogą się różnić od tych wymienionych w cenniku w zależności od pory roku i stopnia zanieczyszczenia urządzenia. Wystawiamy faktury VAT.`;
 
  const contactIntro=`Jesteśmy do Państwa dyspozycji od poniedziałku do piątku w godzinach od 8:00 do 16:00.
- Jeżeli nie uda się Państwu dodzwonić, można wysłać do nas maila. Postaramy się odpowiedzieć w ciągu 24h. 
+ Jeżeli nie uda się Państwu dodzwonić, można wysłać do nas e-mail. Postaramy się odpowiedzieć w ciągu 24h. 
  W sytuacjach awaryjncyh można się z nami kontaktować poza godzinami naszej pracy`;
  
  const tel ="600 339 541";
  const mail = "as_serwis@as_serwis.pl";
 
  const aboutMaintenance=`Bezawaryjna praca dwufunkcyjnych kotłów gazowych, 
- czyli tych najpopularniejszych, to komfort i bezpieczeństwo dla domowników. 
- Nikt nie chciałby być w sytuacji braku ogrzewania lub braku ciepłej wody w 
- kranie - nawet jeden dzień. Jeszcze jesteśmy w stanie to przeboleć podczas pory 
- letniej, ale już inne pory roku w Polsce nie są tak ciepłe jak w Hiszpanii;) 
- Mimo wszystko część klientów zapomina, że to właśnie ich kocioł gazowy jest 
- odpowiedzialny za ciepłą wodę użytkową i centralne ogrzewanie w ich domu lub mieszkaniu. 
- W związku z tym trzeba o niego systematycznie dbać,
-  bo jak mówi przysłowie: „jak dbasz tak masz”.`;
+ czyli tych najpopularniejszych, to podstawa komfortu i bezpieczeństwa dla domowników. 
+ Każdy chciałby uniknąć sytuacji braku ogrzewania lub braku ciepłej wody w 
+ kranie - szczególnie w okresie zimowym. Dlatego ważne jest, aby zadbać o stan techniczny 
+ swojego kotła gazowego jeszcze przed nadejściem okresu grzewczego. Zachęcamy do wykonywania przeglądów technicznych w okresie letnim. 
+ Nie tylko zapewnisz sobie gotowość na zbliżające się już jesienią niskie temperatury, ale również oczekiwanie na serwis będzie znacznie krótsze 
+ z uwagi na większą liczbę wolnych terminów.
+ Nie czekaj na awarię, zabezpiecz się przed nią!
+`;
 
-  const aboutInstallation=`Oferowana przez naszą firmę instalacja piecyka gazowego, kotła
-   gazowego oraz instalacji grzewczych to usługi wykonywane przez specjalistów.
+  const aboutInstallation=`Oferowana przez naszą firmę instalacje piecyków gazowych oraz urządzeń grzewczych
+   to usługi wykonywane przez doświadczonych fachowców.
     Podczas pracy wykorzystujemy profesjonalny sprzęt, a dzięki doświadczeniu i 
-	fachowej wiedzy naszych pracowników zagwarantować możemy bezpieczeństwo 
-	użytkowania montowanych urządzeń. Podłączenie kotła gazowego należy do 
-	skomplikowanych czynności ze względu na wiele układów elektronicznych. 
-	Podobnie jak montaż piecyka gazowego zadanie to powinno więc być wykonywane
-	 przez uprawnionych specjalistów. Skorzystanie z usług naszej firmy daje 
-	 pewność, że instalacja funkcjonować będzie sprawnie, a piecyki i kotły 
-	 zostaną zamontowane prawidłowo i zgodnie z wymogami producenta oraz
-	  obowiązującymi przepisami bezpieczeństwa. Zapewnia to nie tylko jej 
-	  pełną efektywność, ale również możliwość skorzystania z uprawnień 
-	  gwarancyjnych, jeśli tylko zajdzie taka konieczność.`;
+	specjalistycznej wiedzy, możemy zagwarantować  bezpieczeństwo 
+	użytkowania montowanych urządzeń. Podłączenie kotła gazowego i piecyków gazowych należą do 
+	skomplikowanych czynności ze względu na złożoność układów elektronicznych w nich zawartych.
+ Skorzystanie z usług naszej firmy daje 
+	 pewność, że instalacja będzie funkcjonować prawidłowo i zgodnie z wymogami producenta oraz
+	  obowiązującymi przepisami bezpieczeństwa.`;
 
-const aboutAuthomatics =`Dobre działanie nowoczesnego systemu centralnego 
-ogrzewania to nie tylko sprawne uzyskiwanie dużej ilości ciepła z możliwie
- małej ilości opału, ale również duży komfort użytkowania wszystkich urządzeń.
-  Właściwie dobrany do potrzeb domowników kocioł powinien zapewniać łatwą 
-  obsługę oraz dawać duże możliwości wyboru ustawień parametrów swojej pracy. 
-  Dzięki stosowaniu zaawansowanej automatyki kotłowni, dostarczanie ciepła 
-  oraz przygotowywanie ciepłej wody użytkowej, może wymagać jedynie minimalnej 
-  ilości uwagi ze strony użytkownika. Przyjrzyjmy się, jakie systemy mogą pomóc
-   w wygodnej eksploatacji domowej kotłowni.`;
+const aboutAuthomatics =`Właściwie dobrany do potrzeb domowników kocioł powinien  być łatwy w obsłudze
+ oraz dawać możliwość samodzielnego ustawiania parametrów jego pracy. Prawidłowe kalibrowanie ustawień,
+  zapewnia nie tylko oszczędny, ale również wydajny sposób zapewnienia ciepła w domu. Dzięki nam dowiesz się, w 
+  jaki sposób prawidłowo manewrować nastawami, tak aby zapewnić sobie ciepło nie nadwyrężając niepotrzebnie swojego portfela.
+`;
 
 const maintenanceId="maintenane";
 const authomaticsId="authomatics";

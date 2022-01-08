@@ -5,8 +5,6 @@ import Contact from '../Contact/Contact';
 import Prices from '../Prices/Prices';
 import PrivacyPolicy from '../Privacy/PrivacyPolicy';
 import Services from '../Services/Services';
-// import Menu from '../Menu/Menu';
-// import Overmenu from '../Overmenu/Overmenu';
 import WelcomePage from '../WelcomePage/WelcomePage';
 
 const Main = () => {

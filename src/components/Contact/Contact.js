@@ -1,6 +1,6 @@
 import React from 'react';
 import PhotoDisplayTop from '../sharedComponents/PhotoDisplayTop/PhotoDisplayTop';
-import contactPhoto from '../../images/contact.jpg';
+import contactPhoto from '../../images/contact.png';
 import { ImMobile } from 'react-icons/im';
 import { HiMail } from 'react-icons/hi';
 import './Contact.scss';

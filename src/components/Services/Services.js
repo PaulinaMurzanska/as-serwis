@@ -1,15 +1,15 @@
 import React from 'react'
 import { aboutMaintenance, aboutInstallation,aboutAuthomatics, authomaticsId,maintenanceId, installationId} from '../../constants/Descriptions';
-import mainteinPhoto from "../../images/maintenance.jpg";
-import installationPhoto from "../../images/gas7.jpg";
-import authomaticsPhoto from "../../images/uthomatics.jpg";
+import mainteinPhoto from "../../images/handyman.png";
+import installationPhoto from "../../images/instalation.png";
+import authomaticsPhoto from "../../images/heater1.png";
 import Service from './Service';
 import './Service.scss';
 
 
 const Services = ()=>{
     return (
-        <div className="container">
+        <div className="container" style={{padding:"50px 0"}}>
             <div className="title">
 				<h2>Nasze usługi</h2>
 			</div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import PhotoDisplayTop from '../sharedComponents/PhotoDisplayTop/PhotoDisplayTop';
 import WelcomePageIntro from './WelcomePageIntro';
-import welcomePagePhoto from "../../images/gas5.jpg";
+import welcomePagePhoto from "../../images/boiler-room.png";
 
 const WelcomePage = () => {
 	return (

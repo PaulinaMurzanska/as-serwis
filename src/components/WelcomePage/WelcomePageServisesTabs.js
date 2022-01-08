@@ -2,9 +2,9 @@ import React from 'react';
 import ServiceTab from './ServiceTab';
 import './WelcomePage.scss';
 import './WelcomePageIntro.scss';
-import tabPhoto1 from '../../images/maintenance.jpg';
-import tabPhoto3 from '../../images/uthomatics.jpg';
-import tabPhoto2 from '../../images/gas7.jpg';
+import tabPhoto1 from '../../images/handyman.png';
+import tabPhoto2 from '../../images/instalation.png';
+import tabPhoto3 from '../../images/heater1.png';
 import {
 	tabTitle1,
 	tabTitle2,
